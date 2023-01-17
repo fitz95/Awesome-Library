@@ -1,5 +1,5 @@
 import NewBook from './modules/NewBook.js';
-import { currentTime } from './modules/Date.js';
+import myDefault from './modules/Date.js';
 
 const bookList = document.getElementById('bookListItems');
 const form = document.getElementById('form');
@@ -97,4 +97,4 @@ form.addEventListener('submit', (e) => {
   booked.displayBooks();
 });
 
-currentTime();
+myDefault();
