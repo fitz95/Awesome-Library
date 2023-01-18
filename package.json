@@ -16,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/fitz95/Awesome-Library/issues"
   },
-  "homepage": "https://github.com/fitz95/Awesome-Library#readme"
+  "homepage": "https://github.com/fitz95/Awesome-Library#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.4",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "dependencies": {
+    "full-icu": "^1.5.0",
+    "luxon": "^3.2.1"
+  }
 }

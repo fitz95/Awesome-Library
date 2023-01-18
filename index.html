@@ -1,17 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>library App</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js" integrity="sha256-eTuW4qNdO+s5QEVrZ6g02eMzgyEZmLLuaUscvGF8/t0=" crossorigin="anonymous"></script>
   </head>
+
   <body>
+    <header></header>
     <main>
-        <h1>Welcome to My Website</h1>  
+      
+      <section class="nav-container">
+        <nav class="my-nav">
+          <div class="logo-wrapper">
+            <div class="log"> Awesome Books</div>
+          </div>
+          <div class="nav-list">
+            <ul class="nav-items">
+              <li class="class-list-items" id="List">List</li>
+              <li class="class-list-items" id="AddNew">Add new</li>
+              <li class="class-list-items" id="Contact">Contact</li>
+            </ul>
+          </div>
+        </nav>
+        <p id="date">25th december</p>
+      </section>
+
+      <section class="full booklist-section" id="bookList-section">
+
+        <h1 class="books-title"> <div> All awesome Books</div></h1>
+        <div id="bookListItems"></div>
+      </section>
+
+      <section class="full addBook" id="AddNewBook">
+      <div class="formdiv">
+        <hr>
+        <h3>Add a  new book</h3>
+        <form id="form">
+          <input type="text" id="newFormBook" placeholder="Title" /><br /><br />
+          <input type="text" id="newFormAuthor" placeholder="author"/><br /><br />
+          <button type="submit" class="submitbtn">Add</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="full contact" id="ContactSection">
+      <h1>Contact Information</h1>
+      <p>Do you have any questions or you just want to say 'Helllo'?</p><br>
+      <p>You can reach to us</p>
+      <ul>
+        <li>Our E-mai: Mail@mail.com</li>
+        <li>Our Phone Number: 0124455866656</li>
+        <li>our Address: StreeName 22, 5688 city, Country </li>
+      </ul>
+
+    </section>
+    <section>
+      <div class="my-footer">
+        <p>Copyright</p>
+        <p>...</p>
+      </div>
+    </section>
     </main>
-	<script src="index.js"></script>
+    <footer></footer>
+    <script type="module" src="index.js"></script>
+    <!-- <script type="module" src="/modules/luxon.js"></script> -->
+    
   </body>
 </html>
